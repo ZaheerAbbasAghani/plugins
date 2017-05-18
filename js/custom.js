@@ -9,16 +9,22 @@ jQuery(document).ready(function() {
 	 var email = jQuery('#exampleInputEmail1').val();
 	 var password = jQuery('#exampleInputPassword1').val();
 	 var ajaxUrl = jQuery('#formRegister').data('url');
- 	 var url = 'http://localhost/demos/checkout/'
+	 //var standartTitle = jQuery('#standartTitle').val();
+	 //var standardPrice = jQuery('#standardPrice').val();
+	 
+ 	 var url = 'http://localhost/demos/checkout/';
 
 	jQuery.ajax({
 
 		url: ajaxUrl,
 		type:'post',
-		data:{firstName:firstName,
+		data:{
+		firstName:firstName,
 		lastName:lastName,
 		email:email,
 		password:password,
+		standartTitle:standartTitle,
+		standardPrice:standardPrice,
 		action:'wpjit_insert_user'
 
 		},

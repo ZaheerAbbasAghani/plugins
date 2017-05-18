@@ -1,3 +1,4 @@
+<?php /* DISPLAYING WPPCOMMERCE PRODUCTS */  ?>
 <div class="wpjit_woo_products woocommerce columns-3">
 <div class="woocommerce columns-3">
 <ul class="products">

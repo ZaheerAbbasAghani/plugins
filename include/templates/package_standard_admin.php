@@ -1,8 +1,9 @@
 <div id="wpjit_standard">
+<div class="wrap_all_packages">
 <h3> Standard Package Options </h3>
 <form method="post" action="options.php">
-    <?php settings_fields( 'wpjit-settings-group' ); ?>
-    <?php do_settings_sections( 'wpjit-settings-group' ); ?>
+    <?php settings_fields( 'wpjit-settings-group-standard' ); ?>
+    <?php do_settings_sections( 'wpjit-settings-group-standard' ); ?>
     <table class="form-table">
      
         <tr valign="top">
@@ -64,4 +65,6 @@
     <?php submit_button(); ?>
 
 </form>
+
+</div><!-- wrap_all_packages -->
 </div><!--wpjit_standard-->

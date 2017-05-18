@@ -53,3 +53,16 @@ WPJIT RESTRICT STYLESHEET
     width: 90px;
     margin: auto;
 }
+.wrap_package_details li {
+    list-style: none;
+    width: 50%;
+    float: left;
+}
+.wrap_package_details {clear: both;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 13px;}
+.packtitle {
+    padding-left: 30px;
+}
